@@ -1,0 +1,182 @@
+/* Style for the container that holds the settings form */
+.wpcontributors-settings-wrapper {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style for the header section */
+.wpcontributors-settings-header h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.wpcontributors-settings-header p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Style for form elements */
+.wpcontributors-settings-form {
+    margin-top: 20px;
+}
+
+.wpcontributors-form-group {
+    margin-bottom: 10px;
+}
+
+/* Style for labels and checkboxes */
+.wpcontributors-label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.wpcontributors-form-control {
+    margin-right: 10px;
+}
+
+/* Style for the Save Changes button */
+.wpcontributors-save-btn-container {
+    margin-top: 20px;
+}
+
+/* Style for the Save Changes button itself */
+.wpcontributors-save-btn-container .button-primary {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wpcontributors-save-btn-container .button-primary:hover {
+    background-color: #005bbf;
+}
+
+/* Style for the "Contributer(s)" box container */
+#wpcontributors_box_id {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style for the box header */
+.postbox-header {
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.postbox-header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Style for the search input */
+.wpcontributors-search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.wpcontributors-selected-input-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style for contributor usernames */
+.wpcontributors-selected-username {
+    display: flex;
+    align-items: center;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style for the remove contributor icon */
+.wpcontributors-remove-contributor-icon {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* Style for the suggestions container */
+.wpcontributors-suggestions {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+/* Style for the selected names container */
+.wpcontributors-selected-names-container {
+    margin-top: 10px;
+}
+
+/* Style for the "Toggle panel" button */
+.handlediv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 0 5px 0 0;
+}
+
+/* Style for the "Toggle panel" button icon */
+.toggle-indicator {
+    font-size: 20px;
+    line-height: 1;
+}
+
+
+/* Style for the Contributors Metabox */
+.wpcontributors-ui-widget {
+    margin-top: 20px;
+}
+
+/* Style for the Select Box */
+#wpcontributors-selected-authors {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+/* Style for the Selected Authors */
+#wpcontributors-selected-authors option {
+    padding: 5px;
+}
+
+/* Style for Selected Authors when hovered */
+#wpcontributors-selected-authors option:hover {
+    background-color: #ddd;
+}
+
+/* Style for the Save Button (if any) */
+#submitdiv {
+    margin-top: 20px;
+}

@@ -1,0 +1,33 @@
+/* Style for the container that holds the list of contributors */
+.wpcontributors_contributors-wrapper {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the title */
+.wpcontributors_contributors-title {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Style for each contributor's avatar and username */
+.wpcontributors_avatar_container {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Style for the avatar image */
+.wpcontributors_avatar_container img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for the username */
+.wpcontributors_avatar-username {
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+    color: #777;
+}
